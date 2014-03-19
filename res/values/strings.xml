@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThessVres</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView1"></string>
+    <string name="action_map">Map</string>
+    <string name="search_title">Search</string>
+    <string name="simple_Search">Simple Search</string>
+    <string name="h_Search">Search Place...</string>
+    <string name="from">from: </string>
+    <string name="to">Destination: </string>
+    <string name="clocation">Current Location</string>
+    <string name="f_hint">From...</string>
+    <string name="t_hint">Destination</string>
+    <string name="s_hint">Search...</string>
+    <string name="source">Source</string>
+    <string name="s_btn">Search</string>
+    <string name="m_btn">On Map</string>
+    <string name="action_list">List</string>
+    <string name="gps">Pls open your GPS</string>
+    <string name="gps_Settings">Settings</string>
+    <string name="gps_Cancel">Cancel</string>
+    <string name="gps_Msg">GPS is not enabled. Do you want to go to settings menu?</string>
+    <string name="phone">Phone Number: </string>
+    <string name="link">Link: </string>
+    <string name="menutxt">Menu: </string>
+    <string name="menustring">Open this menu?</string>
+    <string name="events">Events</string>
+    <string name="email">E-mail: </string>
+    <string name="tocall">Are you sure for calling ?</string>
+    <string name="tomail">Are you sure for send an email ?</string>
+    <string name="tosite">Open this site?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="resbtn">@drawable/es_btn_en</string>
+    <string name="chbtn">@drawable/ch_btn_en</string>
+    <string name="arbtn">@drawable/arc_btn_en</string>
+    <string name="policebtn">@drawable/police_btn_en</string>
+    <string name="hospitalbtn">@drawable/hos_btn_en</string>
+    <string name="presviesbtn">@drawable/presvia_btn_en</string>
+    <string name="barclup">@drawable/bc_btn_en</string>
+    <string name="musiabtn">@drawable/mu_btn_en</string>
+    <string name="eventbtn">@drawable/event_btn</string>
+    <string name="noffildes">fields</string>
+    <string name="SliderHelp">                                    Tap the rows for more details!!!                             </string>
+
+</resources>

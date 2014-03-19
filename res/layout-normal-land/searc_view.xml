@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.40"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titlefrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/source"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <RadioGroup
+                android:id="@+id/radioGroup1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="40dp" >
+
+                <RadioButton
+                    android:id="@+id/CurLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.30"
+                    android:checked="true"
+                    android:text="@string/clocation" />
+
+                <RadioButton
+                    android:id="@+id/customLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.30"
+                    android:text="From" />
+
+                <AutoCompleteTextView
+                    android:id="@+id/editText1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.40"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:hint="@string/f_hint"
+                    android:inputType="textAutoComplete|textAutoCorrect"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/l2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/l1"
+        android:layout_weight="0.35"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titlestoo"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/to"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <AutoCompleteTextView
+                android:id="@+id/editText2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/deslocation"
+                android:layout_marginLeft="40dp"
+                android:ems="10"
+                android:hint="@string/t_hint"
+                android:inputType="textAutoComplete|textAutoCorrect"
+                android:textColor="#FFFFFF" >
+            </AutoCompleteTextView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/l2"
+        android:layout_weight="0.20"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/Search_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/s_btn" />
+    </LinearLayout>
+
+</LinearLayout>

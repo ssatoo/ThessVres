@@ -1,0 +1,41 @@
+<!-- ActionBar styles -->
+    <style name="MyActionBar"
+           parent="@style/Widget.Holo.ActionBar">
+        <item name="android:titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+............................................
+searchView()
+http://developer.android.com/training/search/setup.html
+
+
+zg1@koum!
+z4ch4r14as!
+z.giakoumi@msensis.com
+................................................
+thessvress
+http://stackoverflow.com/questions/9760183/getting-directions-and-navigation-for-android/9760486#9760486
+
+public void showDirections(View view) {
+        final Intent intent = new Intent(Intent.ACTION_VIEW,Uri.parse("http://maps.google.com/maps?" 
+					+ "saddr="+ latitude + "," + longitude 
+					+ "&daddr=" + latitude + "," + longitude));
+        intent.setClassName("com.google.android.apps.maps","com.google.android.maps.MapsActivity");
+        startActivity(intent);
+    }
+
+
+https://developers.google.com/maps/documentation/javascript/directions
+http://stackoverflow.com/questions/16615067/android-app-that-shows-path-between-points-along-with-current-location
+http://raghunandankavi.blogspot.in/
+..........................................
+for dial a number
+
+Uri number = Uri.parse("tel:5551234");
+Intent callIntent = new Intent(Intent.ACTION_DIAL, number);
+............................
+intet
+
+http://developer.android.com/training/basics/intents/sending.html
+...............................................................
+screen sizes
+http://developer.android.com/training/multiscreen/screensizes.html

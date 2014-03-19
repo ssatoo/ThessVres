@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.80" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Placelabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:padding="10dip"
+                android:textColor="#ffffff"
+                android:textSize="16dip"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linkln"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/linklbl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/link" />
+
+                <TextView
+                    android:id="@+id/_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp"
+                    android:text="www.test.com" />
+
+                <ImageButton
+                    android:id="@+id/tolink"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/link_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/menuln"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/menutxt" />
+
+                <TextView
+                    android:id="@+id/_menu"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp"
+                    android:text="www.test.com" />
+
+                <ImageButton
+                    android:id="@+id/tomenu"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/link_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tellln"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone" />
+
+                <TextView
+                    android:id="@+id/_tell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp"
+                    android:text="99999999999" />
+
+                <ImageButton
+                    android:id="@+id/tocall"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/call_icon" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/emailln"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/email" />
+
+                <TextView
+                    android:id="@+id/_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="5sp"
+                    android:text="test@test.com" />
+
+                <ImageButton
+                    android:id="@+id/tomail"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/mail_icon" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.20" >
+
+        <Button
+            android:id="@+id/xarths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/m_btn" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/thess"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/Ekklhsies"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/chbtn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/Mouseio"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/musiabtn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/Aksioth"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/arbtn" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/Estiator"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/resbtn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/icon5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/barclup" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/hospital_"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/hospitalbtn" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.33"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/police_"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/policebtn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/event_"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/event_btn" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:gravity="center_horizontal" >
+
+                <ImageView
+                    android:id="@+id/presvies_"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@string/presviesbtn" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

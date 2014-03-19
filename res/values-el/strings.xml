@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ThessVres</string>
+    <string name="action_settings">Settings</string>
+    <string name="textView1"></string>
+    <string name="action_map">Χάρτης</string>
+    <string name="search_title">Αναζήτηση</string>
+    <string name="simple_Search">Simple Search</string>
+    <string name="h_Search">Αναζήτηση...</string>
+    <string name="from">Από: </string>
+    <string name="to">Προορισμός: </string>
+    <string name="clocation">Τρέχουσα θέση</string>
+    <string name="f_hint">Από...</string>
+    <string name="t_hint">Προορισμός...</string>
+    <string name="source">Αφετηρία: </string>
+    <string name="s_btn">Αναζήτηση</string>
+    <string name="m_btn">Στο χάρτη</string>
+    <string name="gps">Παρακαλώ ανοίξτε το GPS</string>
+    <string name="gps_Settings">Επιλογές</string>
+    <string name="gps_Cancel">Aκυρο</string>
+    <string name="gps_Msg">Το GPS δεν είναι ενεργοποιημένο. Θέλετε να πάτε στις ρυθμίσεις μενού;</string>
+    <string name="phone">Αρ. Tηλεφώνου: </string>
+    <string name="link">Σελίδα: </string>
+    <string name="menutxt">Μενού: </string>
+    <string name="events">Εκδηλώσεις</string>
+    <string name="tomail">θέλετε να στείλετε αυτό το μήνυμα;</string>
+    <string name="tosite">θέλετε να πάτε σε αυτη τη σελιδα;</string>
+    <string name="menustring">θέλετε να πάτε στο μενού;</string>
+    <string name="tocall">Θελετε να πραγματοποιήσετε κλήση;</string>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="resbtn">@drawable/es_btn</string>
+    <string name="chbtn">@drawable/ch_btn</string>
+    <string name="arbtn">@drawable/arc_btn</string>
+    <string name="policebtn">@drawable/police_btn</string>
+    <string name="hospitalbtn">@drawable/hos_btn</string>
+    <string name="presviesbtn">@drawable/presvia_btn</string>
+    <string name="barclup">@drawable/bc_btn</string>
+    <string name="musiabtn">@drawable/mu_btn</string>
+    <string name="noffildes">εγγραφές</string>
+     <string name="SliderHelp">                        Aγγίξτε τις εγγραφες για περισσοτερες πληροφοριες!!!                          </string>
+
+</resources>
